@@ -1,0 +1,47 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./App.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./app/**/*.{js,jsx,ts,tsx}",
+  ],
+  presets: [require("nativewind/preset")],
+  theme: {
+    extend: {
+      colors: {
+        paper:   "#f8f7f4",
+        paper2:  "#f2f0ec",
+        rule:    "#e4e1d8",
+        rule2:   "#cdc9bc",
+        ink:     "#1c1c1e",
+        ink2:    "#4a4a52",
+        ink3:    "#8e8e98",
+        ink4:    "#b8b8c0",
+        navy:    "#1a4480",
+        navy2:   "#0f2d5c",
+        navylt:  "#edf2fa",
+        navymid: "#c8d8f0",
+        teal:    "#0d6e6e",
+        teallt:  "#e4f4f4",
+        amber:   "#b45309",
+        amberlt: "#fef3e2",
+        danger:  "#b91c1c",
+        dangerlt:"#fef2f2",
+        success: "#166534",
+        successlt:"#f0fdf4",
+        violet:  "#5b21b6",
+        violetlt:"#f5f3ff",
+      },
+      fontFamily: {
+        lato:    ["Lato_400Regular"],
+        latoBold:["Lato_700Bold"],
+        latoBlack:["Lato_900Black"],
+        playfair:["PlayfairDisplay_700Bold"],
+        playfairBlack:["PlayfairDisplay_900Black"],
+        mono:    ["SourceCodePro_400Regular"],
+        monoBold:["SourceCodePro_600SemiBold"],
+      },
+    },
+  },
+  plugins: [],
+};
