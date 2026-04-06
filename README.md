@@ -1,15 +1,50 @@
-> Why do I have a folder named ".expo" in my project?
+# StudyBuddy - AI-Powered Learning Management System
 
-The ".expo" folder is created when an Expo project is started using "expo start" command.
+## Project Description
+StudyBuddy is a React Native mobile app designed to enhance student learning management with powerful AI tutor features.
 
-> What do the files contain?
+## Features
+- **Dashboard** with Gamification
+- **Study Planner**
+- **Pomodoro** Technique Integration
+- **Mock Tests**
+- **Student Management**
+- **Records and Analytics**: Activity Log, Progress Reports, Chat History, AI Notes, Focus Timer, Assignments
+- **AI Tutor** capabilities
 
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "packager-info.json": contains port numbers and process PIDs that are used to serve the application to the mobile device/simulator.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
+## Tech Stack
+- **React Native**
+- **Expo**
+- **React Navigation**
+- **Tailwind CSS**
 
-> Should I commit the ".expo" folder?
+## Installation Instructions
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Harshid001/studybuddy.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd studybuddy
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the application:
+   ```bash
+   npm start
+   ```
 
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+## Project Structure
+```
+studybuddy/
+├── src/
+│   ├── screens/
+│   └── context/
+├── configuration files
+└── ...
+```
 
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+## Contribution Guidelines
+We welcome contributions! Please fork the repository and submit a pull request to propose changes.
